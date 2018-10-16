@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="administrator_c.css">
+   <title>Koнор МакГрегор фан сторінка</title>
+    <link rel="stylesheet" type="text/css" href="news_style.css">
+  </head>
+<body>
+       <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:black " style="opacity: 0.8">
+            <a class="navbar-brand" href="#">
+            
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">News</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="D:/web/lab1/index.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Main
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="D:/web/lab1/calendarsOfMatches.html">Calendar of Matches</a>
+                            <a class="dropdown-item" href="#">Next game</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Raitings</a>
+                        </div>
+                    </li>
+                    <a class="nav-item nav-link" href="D:/web/lab1/fans.html">Fans</a>
+                    <a class="nav-item nav-link" href="D:/web/lab1/contacts.html">Contacts</a>
+                    <a class="nav-item nav-link" href="D:/web/lab1/admin.html">Admin</a>
+                </div>
+            </div>
+            <div class="form-inline my-2 my-lg-0">
+                <div class="logo"></div>
+                <img src="logo.png" width="50" height="50"alt="logo"
+            Main</a>
+            </div>
+        </nav>
+  <div class= "container">
+<div class="container">
+            <h1 style="text-align: center;" style="margin-top: 70px;">Добавить новость</h1>
+
+            <div class="input_form">
+
+            <div class="col-md-6">
+                <img src="images/picture.jpg" width="60%">
+            </div>
+
+            <form id="addPicture">
+                <label style="margin-top: 60px">Выбрать файл</label>
+                <input id="news-img" type="file" class="form-control-file">
+            </form>
+            </div>
+
+            <div class="col-md-12">
+                <form id="newsForm">
+                    <input id="caption" type="text" class="form-control" placeholder="Titele">
+                    <br>
+                    <textarea id="text" class="form-control" rows="15" placeholder="Picture"></textarea>
+                    <br>
+                    <input type="button" value="Отправить" class="btn btn-primary" onclick="newsAdd()">
+                </form>
+            </div>
+
+        </div>
+
+</div>
+    
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+<footer style="text-align: center; margin-top: 20%;">   © 2018 Created by Zakat</footer>
+</html>

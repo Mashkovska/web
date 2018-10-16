@@ -1,0 +1,146 @@
+body{
+	background-image: url(images/background.jpg); 
+  background-size: cover;
+  font-family: Arial;
+  color: white;
+  opacity: none;
+
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+   position: fixed;
+   top:0;
+
+}
+
+ul li{
+float: left;
+width: 200px;
+height: 40px;
+background-color: black;
+opacity: 0.8;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+
+}
+
+ul li ul li{
+  display: none;
+}
+
+ul li:hover ul li{
+  display: block;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  border-right:1px solid #666;
+}
+
+ul li a:hover{
+  background-color: green;
+  border-right: 1px solid #666;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+
+img.conor{
+	text-align: center;
+	margin: 2em 5em 2em 0;
+}
+img{
+	 margin-left: 20px; 
+   margin-bottom: 10px; 
+   border-radius: 15px
+
+}
+p {
+  font-size: 15px;
+ 
+
+}
+.zagolovok{
+  text-align: center;
+}
+.marquee{
+width:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+ 
+.marquee  {
+color:white;
+font-size:40px;
+animation: marquee 5s  linear;
+}
+ 
+@keyframes marquee{
+0%{transform: translateX(-100%);}
+100%{transform: translateX(0)}
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+}
+.all_text{
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+table tr td{
+  font-size: 25px;
+}
+table tr th{
+  font-size: 30px;
+}
+
+h1{
+  margin-top:75px;
+}
+nav ul img {
+  animation-name: fadeIn;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.footer{
+  margin-top: 400px;
+}
+table td, th {
+    padding: 3px;
+    border: 1px solid #000; 
+   }
+   th {
+    background: #afd792; 
+    color: #333; 
+   }
+   tbody tr:hover {
+    background: #f3bd48; 
+    color: black; 
+   }
